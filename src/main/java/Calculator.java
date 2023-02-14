@@ -4,7 +4,7 @@ public class Calculator {
 
     static double add(double... operands) {
         return DoubleStream.of(operands)
-                .sum()
+                .sum();
     }
 
     static double multiply(double... operands) {
